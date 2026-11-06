@@ -1,0 +1,6 @@
+{
+  "name": "Restaurante Carmesí – Benalmádena Pueblo",
+  "description": "Haute gastronomie française et terroir andalou par le Chef Ton Overbeek & Inge à Benalmádena Pueblo, Málaga. Réservation directe via WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
