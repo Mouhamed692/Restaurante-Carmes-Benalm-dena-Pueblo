@@ -4,10 +4,10 @@ export const WHATSAPP_NUMBER = '34623534494';
 export const PHONE_DISPLAY = '+34 623 53 44 94';
 export const ADDRESS_FULL = 'Avenida del Chorrillo, 29639 Benalmádena Pueblo, Málaga, Espagne';
 
-export const HERO_IMAGE = '/assets/aistudio/image_61499fb3.png';
-export const HERO_TABLE_IMAGE = '/assets/aistudio/image_b0a7f51f.png';
-export const INTERIOR_IMAGE = '/assets/aistudio/image_b96053f2.png';
-export const TERRACE_DISH_IMAGE = '/assets/aistudio/image_98c1f1ad.png';
+export const HERO_IMAGE = './assets/aistudio/image_61499fb3.png';
+export const HERO_TABLE_IMAGE = './assets/aistudio/image_b0a7f51f.png';
+export const INTERIOR_IMAGE = './assets/aistudio/image_b96053f2.png';
+export const TERRACE_DISH_IMAGE = './assets/aistudio/image_98c1f1ad.png';
 
 export const DISHES: DishItem[] = [
   // 1. Entrées / Pour Commencer
@@ -15,7 +15,7 @@ export const DISHES: DishItem[] = [
     id: 'tartare-couteau',
     category: 'starters',
     price: 22,
-    image: '/assets/aistudio/image_7240eba3.png',
+    image: './assets/aistudio/image_7240eba3.png',
     name: {
       fr: 'Steak Tartare au Couteau',
       en: 'Hand-Cut Beef Tartare',
@@ -41,7 +41,7 @@ export const DISHES: DishItem[] = [
     id: 'soupe-mediterranee',
     category: 'starters',
     price: 19,
-    image: '/assets/aistudio/image_8636c49b.png',
+    image: './assets/aistudio/image_8636c49b.png',
     name: {
       fr: 'Soupe de Poissons & Crustacés de Méditerranée',
       en: 'Mediterranean Fish & Shellfish Velouté',
@@ -67,7 +67,7 @@ export const DISHES: DishItem[] = [
     id: 'saint-jacques-beurre-blanc',
     category: 'starters',
     price: 24,
-    image: '/assets/aistudio/image_885cb48f.png',
+    image: './assets/aistudio/image_885cb48f.png',
     name: {
       fr: 'Noix de Saint-Jacques Poêlées',
       en: 'Pan-Seared Scallops',
@@ -95,7 +95,7 @@ export const DISHES: DishItem[] = [
     id: 'catch-of-the-day',
     category: 'sea',
     price: 32,
-    image: '/assets/aistudio/image_dc103544.png',
+    image: './assets/aistudio/image_dc103544.png',
     name: {
       fr: 'Catch of the Day — Pêche de la Baie de Málaga',
       en: 'Catch of the Day — Málaga Bay Wild Fish',
@@ -121,7 +121,7 @@ export const DISHES: DishItem[] = [
     id: 'pave-saumon-croustillant',
     category: 'sea',
     price: 29,
-    image: '/assets/aistudio/image_00afa11f.png',
+    image: './assets/aistudio/image_00afa11f.png',
     name: {
       fr: 'Pavé de Saumon Croustillant',
       en: 'Crispy-Skin Salmon Fillet',
@@ -149,7 +149,7 @@ export const DISHES: DishItem[] = [
     id: 'tournedos-morilles',
     category: 'land',
     price: 38,
-    image: '/assets/aistudio/image_b0a7f51f.png',
+    image: './assets/aistudio/image_b0a7f51f.png',
     name: {
       fr: 'Tournedos de Bœuf aux Morilles',
       en: 'Beef Tenderloin with Morel Jus',
@@ -175,7 +175,7 @@ export const DISHES: DishItem[] = [
     id: 'magret-canard-roti',
     category: 'land',
     price: 31,
-    image: '/assets/aistudio/image_bbd7787f.png',
+    image: './assets/aistudio/image_bbd7787f.png',
     name: {
       fr: 'Magret de Canard Rôti',
       en: 'Roasted Duck Breast',
@@ -203,7 +203,7 @@ export const DISHES: DishItem[] = [
     id: 'asperges-saison',
     category: 'sides',
     price: 11,
-    image: '/assets/aistudio/image_98c1f1ad.png',
+    image: './assets/aistudio/image_98c1f1ad.png',
     name: {
       fr: 'Asperges Blanches & Vertes de Saison',
       en: 'Seasonal White & Green Asparagus',
@@ -229,7 +229,7 @@ export const DISHES: DishItem[] = [
     id: 'croquette-truffe-mousseline',
     category: 'sides',
     price: 10,
-    image: '/assets/aistudio/image_484b890e.png',
+    image: './assets/aistudio/image_484b890e.png',
     name: {
       fr: 'Croquette Croustillante & Mousseline Truffée',
       en: 'Crisp Artisan Croquette & Truffle Mousseline',
@@ -257,7 +257,7 @@ export const DISHES: DishItem[] = [
     id: 'crepes-suzette',
     category: 'desserts',
     price: 16,
-    image: '/assets/aistudio/image_b06af0cc.png',
+    image: './assets/aistudio/image_b06af0cc.png',
     name: {
       fr: 'Crêpes Suzette Flambées Traditionnelles',
       en: 'Traditional Flambéed Crêpes Suzette',
@@ -283,7 +283,7 @@ export const DISHES: DishItem[] = [
     id: 'moelleux-chocolat',
     category: 'desserts',
     price: 15,
-    image: '/assets/aistudio/image_b9b380f4.png',
+    image: './assets/aistudio/image_b9b380f4.png',
     name: {
       fr: 'Moelleux au Chocolat Grand Cru',
       en: 'Grand Cru Dark Chocolate Fondant',
