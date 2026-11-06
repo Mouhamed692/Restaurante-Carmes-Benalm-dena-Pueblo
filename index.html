@@ -81,6 +81,10 @@
   </head>
   <body class="bg-[#0A0A0A] text-[#F5F2EB] antialiased selection:bg-[#6E1A24] selection:text-[#F5F2EB]">
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <script
+      type="module"
+      src="/src/main.tsx"
+      onerror="if(!location.pathname.includes('/docs'))location.replace('./docs/')"
+    ></script>
   </body>
 </html>
